@@ -1,0 +1,24 @@
+{
+	"evn": "dev",
+	"cache": {
+		"type": "memcached",
+		"host": "127.0.0.1:11211",
+		"option": {},
+		"file": "memcached",
+		"index": 1
+	},
+	"poolConf": {
+		"mysql": {
+			"host": "127.0.0.1",
+			"user": "root",
+			"password": "laoda520",
+			"charset": "utf-8"
+		},
+		"mongodb": {
+
+		},
+		"sphinx": {
+			"host": "localhost:9312"
+		}
+	}
+}
